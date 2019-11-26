@@ -10,27 +10,20 @@ If Homebrew does not exist on the current machine, it will install that first. T
  - Node
 
 ### Casks
- - 1Password
- - Adobe Creative Cloud
- - Atom
- - Balsamiq Mockups
- - Clockify
- - CodeKit
- - Docker
- - Dropbox
- - Firefox
- - Google Chrome
- - Hostbuddy
- - Kitematic
- - MAMP
- - Postman
- - Screaming Frog SEO Spider
- - Sequel Pro
- - Slack
- - Sourcetree
- - Spotify
- - Transmit
- - Zeplin
+- 1password
+- atom
+- docker
+- firefox
+- google-chrome
+- screaming-frog-seo-spider
+- sequel-pro
+- slack
+- sourcetree
+- fork
+- spotify
+- insomnia
+- zoom
+- bear
 
 ### Others
 As part of installing Node/npm, this script will also globally install SASS via npm.
