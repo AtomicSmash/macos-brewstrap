@@ -22,10 +22,9 @@ If Homebrew does not exist on the current machine, it will install that first. T
 - fork
 - spotify
 - insomnia
-- zoom
+- zoomus
 - bear
 - iterm2
-- nvm
 
 ### Others
 As part of installing Node/npm, this script will also globally install SASS via npm.

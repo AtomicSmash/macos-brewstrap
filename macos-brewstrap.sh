@@ -45,7 +45,7 @@ CASKS=(
    fork
    spotify
    insomnia
-   zoom
+   zoomus
    iterm2
    nvm
 )
