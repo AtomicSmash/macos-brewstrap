@@ -47,7 +47,6 @@ CASKS=(
    insomnia
    zoomus
    iterm2
-   nvm
 )
 
 echo "Installing cask apps..."
