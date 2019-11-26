@@ -46,7 +46,8 @@ CASKS=(
    spotify
    insomnia
    zoom
-   bear
+   iterm2
+   nvm
 )
 
 echo "Installing cask apps..."
