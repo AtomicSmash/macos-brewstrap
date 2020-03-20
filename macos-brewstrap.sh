@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
-#
+
 # Bash script for installing Homebrew and any packages and casks on a fresh install of macOS
-#
-# The following apps don't have a cask and need to be installed manually:
-#
-# - Spark (App Store)
-# - SiteSucker (https://ricks-apps.com/osx/sitesucker/)
 
 echo "Starting Brewstrap"
 
@@ -32,6 +27,22 @@ brew cleanup
 echo "Installing cask..."
 brew install cask
 
+echo "Installing Oh My Zsh..."
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+echo "Installing nvm..."
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+
+echo "Installing lastest node..."
+nvm install node
+nvm use node
+
+echo "Installing capistrano..."
+sudo gem install capistrano
+
+echo "Installing capistrano-composer..."
+sudo gem install capistrano-composer
+
 CASKS=(
    1password
    atom
@@ -47,14 +58,10 @@ CASKS=(
    insomnia
    zoomus
    iterm2
-   nvm
 )
 
 echo "Installing cask apps..."
 brew cask install ${CASKS[@]}
-
-echo "Updating npm..."
-npm install -g npm
 
 echo "Installing global npm packages..."
 npm install -g sass

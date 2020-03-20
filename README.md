@@ -18,6 +18,10 @@ If Homebrew does not exist on the current machine, it will install that first. T
 ### Packages
  - Composer
  - Node
+ - Oh My Zsh
+ - NVM
+ - Capistrano
+ - Capistrano-composer
 
 ### Casks
 - 1password
@@ -35,11 +39,3 @@ If Homebrew does not exist on the current machine, it will install that first. T
 - zoomus
 - iterm2
 
-### Others
-As part of installing Node/npm, this script will also globally install SASS via npm.
-
-## Notes
-There are other applications that cannot be installed via Homebrew as there are no casks available yet. These apps are:
-
- - Spark - Email App by Readdle (App Store)
- - SiteSucker (https://ricks-apps.com/osx/sitesucker/)
