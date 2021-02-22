@@ -56,12 +56,12 @@ CASKS=(
    fork
    spotify
    insomnia
-   zoomus
+   zoom
    iterm2
 )
 
 echo "Installing cask apps..."
-brew cask install ${CASKS[@]}
+brew install ${CASKS[@]}
 
 echo "Installing global npm packages..."
 npm install -g sass
